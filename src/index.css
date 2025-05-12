@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@theme{
+  --color-tertiary:#042859;
+  --color-secondary:#386c99;
+  --color-primary:#d32027;
+}
+:root{
+  font-family: 'Poppins';
+  
+}
+.gradient{
+ 
+  background: linear-gradient(90deg, #042859 14.23%, #386c99 50.48%, #d32027 87.69%);
+}
+.left-arrow, .right-arrow{
+  position: absolute;
+  top: 45%;
+  background: white;
+  font-size: 32px;
+  text-align: center;
+  color: #042859;
+}
+.left-arrow{
+  left: 16px;
+}
+.right-arrow{
+  right: 16px;
+}
+.right-arrow:hover,.left-arrow:hover{
+  background: linear-gradient(90deg, #042859 14.23%, #386c99 50.48%, #d32027 87.69%);
+  color: white;
+}
+
+.footer-head{
+  font-size: 24px;
+  font-weight: 700;
+}
+.email-footer ,.footer{
+  background: linear-gradient(90deg, #042859 14.23%, #386c99 50.48%, #386c99 50.96%, #d32027 87.69%);
+  color: white;
+}
+.email-footer {
+  background: url(./assets/backgroung.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+}
+.li-st{
+  padding: 4px;
+ 
+}
+.li-st:hover{
+background: white;
+color: black;
+border-radius: 20px;
+}
+.search{
+ background: linear-gradient(90deg, #042859 14.23%, #386c99 50.48%, #d32027 87.69%);
+ color: white;
+}
+.search:hover,.sign-btn:hover,.login-btn:hover,.select-btn:hover,.book-btn:hover,.search:hover{
+  background: linear-gradient(90deg, #042859 14.23%, #386c99 50.48%, #d32027 87.69%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 2px solid #042859;
+  
+}
+.nav-links{
+  list-style: none;
+ 
+}
+.sign-btn,.login-btn,.select-btn,.book-btn{
+  background: linear-gradient(90deg, #042859 14.23%, #386c99 50.48%, #d32027 87.69%);
+  color: white;
+  padding: 4px;
+  border-radius: 20px;
+  width: 80px;
+  text-align: center;
+  cursor: pointer;
+  
+}
+.select-btn ,.book-btn{
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+}
+.review-name{
+  background: linear-gradient(90deg, #042859 14.23%, #386c99 50.48%, #d32027 87.69%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+}
+
+.sign{
+  background: url(./assets/flight-hotel.png);
+   background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+  height: 100vh;
+  
+}
+.sign-form{
+
+background: rgba(206, 223, 223, 0.55);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+color: white;
+}
+button{
+  cursor: pointer;
+}
