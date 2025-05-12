@@ -6,7 +6,7 @@ const HotelSearch = () => {
   return (
     <div className='flex justify-center '>
       {/* <h2 className='text-2xl top-[4%] z-10 absolute text-red-600'>Search your Hotel</h2> */}
-    <div className='absolute top-[43%] flex bg-white h-40 items-center p-4 rounded-2xl gap-4 justify-center flex-wrap'>
+    <div className='absolute top-[23%] flex bg-white h-40 items-center p-4 rounded-2xl gap-4 justify-center flex-wrap'>
    
     <div className='border-2 border-gray-200 h-15 rounded-2xl'>
       <input type="text" placeholder='Destination' className='p-4 outline-0 w-full ' />

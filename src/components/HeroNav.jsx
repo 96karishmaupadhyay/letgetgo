@@ -9,7 +9,7 @@ import { SiMentorcruise } from "react-icons/si"
 const HeroNav = () => {
   return (
     <div className='flex justify-center '>
-       <ul  className=' absolute top-[10%] text-[10px] bg-black text-white p-4 z-10  flex justify-between gap-4 rounded-full '>
+       <ul  className=' absolute top-[10%] text-[16px] bg-black text-white p-4 z-10  flex justify-between gap-4 rounded-full heronav'>
             <li className='flex gap-2 items-center li-st'><MdOutlineFlight/><Link to="/" >Flights</Link></li>
             <li className='flex gap-2 items-center li-st'><FaTrainSubway/><Link to="/trains" >Trains</Link></li>
             <li className='flex gap-2 items-center li-st'><MdLocalHotel/><Link to="/hotel" >Hotels</Link></li>
